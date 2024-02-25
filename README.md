@@ -13,5 +13,4 @@ iv. Dataset Description
 5. Contributing
 6. Known Issues and Limitations
 7. License
-8. Authors and Acknowledgment
-9. Contact Information 
+8. Contact Information 
