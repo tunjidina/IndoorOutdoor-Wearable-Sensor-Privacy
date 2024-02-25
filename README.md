@@ -5,10 +5,10 @@
 1. Overview
 2. Installation and Setup
 3. Project Components
-i. Sensor Data Collector
-ii. Data Analysis
-iii. Model Training
-iv. Dataset Description
+•	Sensor Data Collector
+•	Data Analysis
+•	Model Training
+•	Dataset Description
 4. Usage
 5. Contributing
 6. Known Issues and Limitations
