@@ -30,16 +30,19 @@ Parsed sensor data is written to a CSV file with a timestamp.
 
 
 - Configuration:
+
 The hardcoded target device address is XX:XX:XX:XX:XX:XX. If you need to connect to a different device, modify the target_device_address variable.
 Data is saved in data.csv. If you wish to use another filename, modify the csv_file variable.
 The default measurement interval is set to 1 minute (60 seconds). You can change this by updating the measurement_interval variable.
 
 - Usage:
+
 To run the script, simply execute:
 
 sudo python3 sensordatacollector.py
 
 - Output:
+
 The script will display messages when:
 Scanning for the target device.
 Successfully discovering the target device.
@@ -63,6 +66,7 @@ Battery Voltage (mV)
 The script will run indefinitely, scanning and logging data, until interrupted by the user (using Ctrl + C).
 
 - Known Issues and Limitations:
+
 The device address is hardcoded. The script will only work with the specified device until it is edited.
 Errors, such as connection issues, are handled with simple retry mechanisms. Depending on the environment, further refinements may be needed.
 Always ensure the Bluetooth device is within range to improve the reliability of data retrieval.
