@@ -31,7 +31,7 @@ Parsed sensor data is written to a CSV file with a timestamp.
 
 - Configuration:
 
-The hardcoded target device address is XX:XX:XX:XX:XX:XX. If you need to connect to a different device, modify the target_device_address variable.
+The hardcoded target device address is xx:xx:xx:xx:xx:xx. If you need to connect to a different device, modify the target_device_address variable.
 Data is saved in data.csv. If you wish to use another filename, modify the csv_file variable.
 The default measurement interval is set to 1 minute (60 seconds). You can change this by updating the measurement_interval variable.
 
