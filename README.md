@@ -19,4 +19,10 @@ The main aim of this project is to use a privacy-preserving approach to automati
 
 ## 2. Project Components
 ### Sensor Data Collector
+The sensordatacollector.py script connects to a Bluetooth LE device to fetch sensor data like temperature, humidity, and more, storing the results in a CSV file. Dependencies include bluepy, csv, and struct. 
+#### Configuration:
+The hardcoded target device address is E0:4D:73:C7:BD:E9. If you need to connect to a different device, modify the target_device_address variable.
+Data is saved in data.csv. If you wish to use another filename, modify the csv_file variable.
+The default measurement interval is set to 1 minute (60 seconds). You can change this by updating the measurement_interval variable.
+
 
