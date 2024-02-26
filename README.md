@@ -19,13 +19,11 @@ The main aim of this project is to use a privacy-preserving approach to automati
 
 ## 2. Project Components
 ### Sensor Data Collector
-The sensordatacollector.py script connects to a Bluetooth LE device to fetch sensor data like temperature, humidity, and more, storing the results in a CSV file. Dependencies include bluepy, csv, and struct. Additional instructions have been included in the file to help understanding of the data collection software. 
+The sensordatacollector.py script connects to a Bluetooth LE device to fetch sensor data like temperature, humidity, and more, storing the results in a CSV file. Dependencies include bluepy, csv, and struct. Additional instructions have been included in the file containing the scripts to help understanding of the data collection software. 
 
-- Known Issues and Limitations:
-  
-The device address is hardcoded. The script will only work with the specified device until it is edited.
-Errors, such as connection issues, are handled with simple retry mechanisms. Depending on the environment, further refinements may be needed.
-Always ensure the Bluetooth device is within range to improve the reliability of data retrieval.
-The code only run on Virtual Machine Ubuntu 64 bit, assurance of it working on windows is not gauranteed. 
+### Data Analysis
+indoor_outdoor_detection_preprocessing_analysis.ipynb notebook explores the collected sensor data, performs preprocessing and EDA, and visualizes the findings to understand the differences between indoor and outdoor measurements.
+
+### Model Training and Evaluation
 
 
